@@ -1,0 +1,27 @@
+#tinav {
+    display: none;
+}
+
+body {
+	position: relative;
+}
+
+.image-wrapper {
+	position: absolute;
+	transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.image-wrapper.fade-out {
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
+
+.boxit {
+	width:100%;height:100%;width: 540px; height: 320px;
+}
+
+.highlight {
+	background-color : yellow;
+	font-weight : bolder;
+}
