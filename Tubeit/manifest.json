@@ -1,16 +1,14 @@
 {
    "content_scripts": [ {
-      "all_frames": false,
-      "css": [ "css/jquery-ui.min.css", "css/tubeit.css" ],
-      "js": [ "js/jquery-1.7.2.min.js", "search.js" ],
-      "matches": [ "http://en.wikipedia.org/*", "https://en.wikipedia.org/*" ],
-      "run_at": "document_end"
+      "all_frames": true,
+      "css": [ "css/tubeit.css" ],
+      "js": [ "search.js" ],
+      "matches": [ "https://en.wikipedia.org/*" ]
    } ],
    "description": "Videofy your wikipedia pages with TubeIt! Just select any word and instantly see the youtube videos for it on the same page",
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAntMTCuIOJNZpkcARQtkcuGk1VJpxUFW4yLy2qTE4F4X4zI6zLm3eA0OSCfStPbhusA5FEZ7y3FMuOhuo1sstDKQbFM5VqdEmakZE5jA2BR6Qh73hLFzMTKFMSYVZg55gvMW40GFgvM+VeLsRyoK+yWGm10upjdaEVV8umjwycFBqChIAGE3kqBwPjoSSMt5rU5kAukwaoP9gmPjK66NWFzS99Jmcy6NTTSu4w0m3S+AjR55KXuByEYpRyXD6rutCixnA5P8U7Mfrac+liVmmc/igFtGB6wUtjVgDn1fGuuqvvegSd7KqAeBGFXoRMgRUp3dFCr+KojHOk5TCJ3lxEwIDAQAB",
-   "manifest_version": 2,
+   "manifest_version": 3,
    "name": "TubeIt for Wikipedia",
    "short_name": "wikitube",
-   "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.0.5"
+   "version": "1.1.5"
 }
